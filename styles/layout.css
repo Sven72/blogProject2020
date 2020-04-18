@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+article {
+    display: grid;
+    grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem, 1fr);
+    margin-top: 1em;
+    padding: 0 2em;   
+}
+
+
+/* position text paragraphs into the second (middle) column */
+
+p,
+h1,
+.meta {
+    grid-column: 1 /4;
+}
+
+
+/* position images to take up all three columns */
+
+img {
+    grid-column: 1 / 4;
+    justify-self: center;
+    min-width: 500px;
+    
+}
+
+@media(min-width: 500px) {
+    article {
+        margin: 3em auto;
+        width: 60%;
+        max-width: 700px;
+    }
+
+  
+}

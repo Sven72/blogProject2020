@@ -1,0 +1,18 @@
+
+.article-cat {
+   text-decoration: none;
+   color: #ffa500;
+   font-weight: bold;
+   text-transform: uppercase;
+   width: 20%;
+   position: relative;
+}
+
+a.article-tag {
+   color: #000;
+   text-decoration: none;
+    border: 1px solid #ffa500;
+    border-radius: 20px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,14 @@
+
+header {
+   background: #1D2226;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1em;
+}
+
+.header-logo a{
+    color: #fff;
+}
