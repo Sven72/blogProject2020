@@ -37,8 +37,8 @@ get_header();
     </div>
 </article>
 </section>
-<script src="js/index.js"></script>
-</body>
+
+<?php get_footer() ?>
 
 
 
