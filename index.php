@@ -5,7 +5,11 @@ get_header();
 ?>
 
 <section class="main-wrapper">
+   
+
 <article class="article main-article_excerpt">
+  
+
     <img src="./imgages/testbild.jpg" alt="" class="article-img">
      <a href="#" class="meta article-cat">Karma</a>
     <h1 class="article-headline">
