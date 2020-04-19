@@ -9,7 +9,12 @@
     the_post(); ?>
     
         <article class="article main-article_single">
-            <img src="./img/testbild.jpg" alt="" class="article-img">
+            <!-- <img src="./img/testbild.jpg" alt="" class="article-img"> -->
+              <?php if ( has_post_thumbnail() ) : ?>
+    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+        <?php the_post_thumbnail(); ?>
+    </a>
+<?php endif; ?>
             <a href="#" class="article-cat">Karma</a>
             <h1 class="article-headline">
                 <?php the_title() ?>
