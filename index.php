@@ -11,14 +11,20 @@ get_header();
     the_post(); ?>
 <article class="article main-article_excerpt">
     <!-- <img src="./imgages/testbild.jpg" alt="" class="article-img"> -->
-    
+
     <?php if ( has_post_thumbnail() ) : ?>
     <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
         <?php the_post_thumbnail(); ?>
     </a>
 <?php endif; ?>
 
+   
      <a href="#" class="meta article-cat">Karma</a>
+     <!-- Meta Box gestalten  -->
+      <div class="metabox">
+        <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('n.j.y'); ?> in <?php echo get_the_category_list(', '); ?></p>
+      </div>
+
     <h1 class="article-headline">
         <?php the_title(); ?>
     </h1>

@@ -3,3 +3,5 @@
 #3. Date | Author -> METAs integrieren
 #4. Beitragsbilder anpassen mit unterschiedlichen Größen
 https://themecoder.de/2016/11/23/wie-du-beitragsbilder-im-wordpress-theme-implementieren-kannst/
+#5. archive.php
+#6. Gestaltung der Meta-Box

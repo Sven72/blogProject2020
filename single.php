@@ -8,7 +8,7 @@
       while(have_posts()) {
     the_post(); ?>
     
-        <article class="article main-article_single">
+<article class="article main-article_single">
             <!-- <img src="./img/testbild.jpg" alt="" class="article-img"> -->
               <?php if ( has_post_thumbnail() ) : ?>
     <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">

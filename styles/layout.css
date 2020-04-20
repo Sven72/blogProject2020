@@ -32,8 +32,9 @@ img {
 
 @media(min-width: 500px) {
     article {
+        display: grid;
         margin: 3em auto;
-        width: 60%;
+        min-width: 60%;
         max-width: 700px;
     }
 
