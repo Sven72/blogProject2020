@@ -1,7 +1,7 @@
   h1 {
-      margin: 1em 0 0;
+      margin: 1rem 0 0;
       padding: 0;
-      font-size: 1.5em;
+      font-size: 1.5rem;
       position: relative;
   }
 
@@ -22,9 +22,9 @@
  h1:before {
      position: absolute;
      content: '';
-     height: .3em;
+     height: .3rem;
      width: 80%;
-     bottom: .2em;
+     bottom: .2rem;
      z-index: -1;
      
      background: #ffa500;
@@ -40,10 +40,10 @@
 
 @media(min-width: 500px) {
     h1 {
-        font-size: 2em;
+        font-size: 2rem;
     }
     p {
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
    
 }

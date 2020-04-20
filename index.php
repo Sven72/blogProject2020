@@ -13,7 +13,7 @@ get_header();
     <!-- <img src="./imgages/testbild.jpg" alt="" class="article-img"> -->
 
     <?php if ( has_post_thumbnail() ) : ?>
-    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+    <a class="hero-img" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
         <?php the_post_thumbnail(); ?>
     </a>
 <?php endif; ?>
@@ -37,7 +37,7 @@ get_header();
         <a href="<?php the_permalink(); ?>" class="meta article-btn">Mehr lesen</a>
     </p>
     <div class="meta-tag-box">
-         <a href="#" class="meta article-tag">Chandrakirti</a>
+         <a href="#" class="meta article-tag"> XX</a>
          <a href="#" class="meta article-tag">Mulahmadyamikavatara</a>
     </div>
    

@@ -18,13 +18,14 @@ p,
 h1,
 .meta {
     grid-column: 1 /4;
+    max-width: 700px;
 }
 
 
 /* position images to take up all three columns */
 
-img {
-    grid-column: 1 / 4;
+.hero-img {
+    grid-column: 1 / 3;
     justify-self: center;
     min-width: 500px;
     
