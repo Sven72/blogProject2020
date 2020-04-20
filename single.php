@@ -14,6 +14,7 @@
     <a class="hero-img" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
         <?php the_post_thumbnail(); ?>
     </a>
+    
 <?php endif; ?>
             <a href="#" class="article-cat">Karma</a>
             <h1 class="article-headline">

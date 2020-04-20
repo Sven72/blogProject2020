@@ -8,11 +8,26 @@
    position: relative;
 }
 
+.meta-tag-box {
+   display: flex;
+   flex-direction: row;
+   gap: 1em;
+}
+
 a.article-tag {
    color: #000;
+   display: block;
    text-decoration: none;
-    border: 1px solid #ffa500;
+    /* border: 1px solid #ffa500; */
+    background-image: linear-gradient(-90deg, #ffa500, yellow);
     border-radius: 20px;
     font-weight: bold;
+    padding: 0.5em 1.5em;
+}
+
+
+a.article-tag:hover {
+background: teal;
+color: #ffa500;
 }
 

@@ -5,3 +5,5 @@
 https://themecoder.de/2016/11/23/wie-du-beitragsbilder-im-wordpress-theme-implementieren-kannst/
 #5. archive.php
 #6. Gestaltung der Meta-Box
+#7. Category tag einbinden. 
+#8. Menü anmelden.
