@@ -16,7 +16,7 @@
     </a>
     
 <?php endif; ?>
-            <a href="#" class="article-cat">Karma</a>
+            <a href="#" class="article-cat"><?php echo get_the_category_list(', '); ?></a>
             <h1 class="article-headline">
                 <?php the_title() ?>
             </h1>

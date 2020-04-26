@@ -19,7 +19,8 @@ get_header();
 <?php endif; ?>
 
    
-     <a href="#" class="meta article-cat">Karma</a>
+     <a href="#" class="meta article-cat"><?php echo get_the_category_list(', '); ?></a>
+     
      <!-- Meta Box gestalten  -->
       <div class="metabox">
         <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('n.j.y'); ?> in <?php echo get_the_category_list(', '); ?></p>
