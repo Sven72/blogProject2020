@@ -13,7 +13,7 @@ get_header();
     
 
     <?php if ( has_post_thumbnail() ) : ?>
-    <a class="hero-img" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+    <!--  -->
         <?php the_post_thumbnail(); ?>
     </a>
 <?php endif; ?>

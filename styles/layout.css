@@ -13,9 +13,9 @@ article {
 }
 
 
-.hero-img img a{
-    
+.article img {
     grid-column: 1/4;
+   
 }
 
 /* position text paragraphs into the second (middle) column */
