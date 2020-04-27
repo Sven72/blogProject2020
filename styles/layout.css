@@ -30,6 +30,21 @@ h1,
     min-width: 500px;    
 }
 
+
+.metabox {
+    position: relative;
+   
+}
+.metabox::after {
+    position: absolute;
+    content: '';
+    height: .1rem;
+    width: 50%;
+    bottom: .2rem;
+    z-index: -1;
+    background: #ffa500;
+    opacity: .4;;
+}
 @media(min-width: 500px) {
     article {
         display: grid;

@@ -16,7 +16,7 @@
     </a>
     
 <?php endif; ?>
-            <a href="<?php the_permalink(); ?>" class="article-cat"><?php echo get_the_category_list(', '); ?></a>
+            <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
             <h1 class="article-headline">
                 <?php the_title() ?>
             </h1>
