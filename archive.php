@@ -24,7 +24,7 @@ get_header();
      <!-- Meta Box gestalten  -->
       <div class="metabox">
       <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
-        <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('j.n.y'); ?> in <?php echo get_the_category_list(', '); ?></p>
+        <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('j.n.y'); ?></p>
       </div>
 
     <h1 class="article-headline">
