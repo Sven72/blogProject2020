@@ -1,16 +1,14 @@
 <?php
-
 get_header(); 
-
 ?>
 
 <section class="main-wrapper">
-   
+   <h1 class="category-hint"><?php the_archive_title()?> </h1>
 <?php
   while(have_posts()) {
     the_post(); ?>
 <article class="article main-article_excerpt">
-    <!-- <img src="./imgages/testbild.jpg" alt="" class="article-img"> -->
+   
 
     <?php if ( has_post_thumbnail() ) : ?>
     <a class="hero-img" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
@@ -18,10 +16,6 @@ get_header();
     </a>
 <?php endif; ?>
 
-   
-     
-     
-     <!-- Meta Box gestalten  -->
       <div class="metabox">
       <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
         <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('j.n.y'); ?></p>

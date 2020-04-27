@@ -10,14 +10,14 @@ get_header();
   while(have_posts()) {
     the_post(); ?>
 <article class="article main-article_excerpt">
-    <!-- <img src="./imgages/testbild.jpg" alt="" class="article-img"> -->
+    
 
     <?php if ( has_post_thumbnail() ) : ?>
     <a class="hero-img" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
         <?php the_post_thumbnail(); ?>
     </a>
 <?php endif; ?>
-     <!-- Meta Box gestalten  -->
+     
       <div class="metabox">
       <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
         <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('j.n.y'); ?></p>
@@ -35,8 +35,8 @@ get_header();
         <a href="<?php the_permalink(); ?>" class="meta article-btn">Mehr lesen</a>
     </p>
     <div class="meta-tag-box">
-         <a href="#" class="meta article-tag"> XX</a>
-         <a href="#" class="meta article-tag">Mulahmadyamikavatara</a>
+         <!-- <a href="#" class="meta article-tag"> XX</a>
+         <a href="#" class="meta article-tag">Mulahmadyamikavatara</a> -->
     </div>
    
 </article>

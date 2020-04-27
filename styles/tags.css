@@ -31,3 +31,8 @@ background: teal;
 color: #ffa500;
 }
 
+.category-hint {
+   background: teal;
+   width: 100%;
+   color: #fff;
+}

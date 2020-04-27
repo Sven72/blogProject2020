@@ -25,8 +25,8 @@
             </p>
            
           <div class="meta-tag-box">
-                <a href="#" class="article-meta-box-tag">Chandrakirti</a>
-                <a href="#" class="article-meta-box-tag">Mulahmadyamikavatara</a>
+                <!-- <a href="#" class="article-meta-box-tag">Chandrakirti</a>
+                <a href="#" class="article-meta-box-tag">Mulahmadyamikavatara</a> -->
           </div>
         </article>
     </section>
