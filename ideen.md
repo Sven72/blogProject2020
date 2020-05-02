@@ -7,6 +7,7 @@ https://themecoder.de/2016/11/23/wie-du-beitragsbilder-im-wordpress-theme-implem
 #6. Gestaltung der Meta-Box
 #7. Category tag einbinden. |-> Kaputtes Layout in single.php
 #8. Menü anmelden. | DONE
-#9. Menü Verlinkungen 
+#9. Menü Verlinkungen
 #10. Headline klickbar | DONE
 #11. Buttons stylen
+#12. Tags stylen
