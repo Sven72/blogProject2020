@@ -32,11 +32,11 @@ get_header();
           } else {
            echo wp_trim_words(get_the_content(), 18); 
           }?>
-        <a href="<?php the_permalink(); ?>" class="meta article-btn">Mehr lesen</a>
+      
     </p>
+      <a href="<?php the_permalink(); ?>" class="meta article-btn">Mehr lesen</a>
     <div class="meta-tag-box">
-         <!-- <a href="#" class="meta article-tag"> XX</a>
-         <a href="#" class="meta article-tag">Mulahmadyamikavatara</a> -->
+        <ul class="nice-tags"><?php the_tags('<li>', '</li><li>', '</li>' ); ?></ul>
     </div>
    
 </article>

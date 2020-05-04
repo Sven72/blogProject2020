@@ -4,26 +4,19 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+
 article {
   display: grid;
-  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(
-      1.2rem,
-      1fr
-    );
+  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem,
+      1fr);
   margin-top: 1em;
   padding: 0 2em;
-  border: 1px solid red;
+
 }
 
 .article img {
   grid-column: 1/4;
 }
-
-/* .nice-tags {
-  display: flex;
-  background-color: red;
-  font-size: 0.9rem;
-} */
 
 /* position text paragraphs into the second (middle) column */
 
@@ -48,17 +41,16 @@ h1 a {
 
 .metabox {
   position: relative;
+  background-color: rgb(255, 165, 0);
+
 }
-.metabox::after {
-  position: absolute;
-  content: "";
-  height: 0.1rem;
-  width: 50%;
-  bottom: 0.2rem;
-  z-index: -1;
-  background: #ffa500;
-  opacity: 0.4;
+
+.metabox:hover {
+  opacity: .8;
+
 }
+
+
 @media (min-width: 500px) {
   article {
     display: grid;

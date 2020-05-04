@@ -25,9 +25,8 @@
             </p>
            
           <div class="meta-tag-box">
-          <p><?php the_tags('<ul class="nice-tags"><li>', '</li><li>', '</li></ul>' ); ?></p>
-                <!-- <a href="#" class="article-meta-box-tag">Chandrakirti</a>
-                <a href="#" class="article-meta-box-tag">Mulahmadyamikavatara</a> -->
+        <ul class="nice-tags"><?php the_tags('<li>', '</li><li>', '</li>' ); ?></ul>
+    
           </div>
         </article>
     </section>
