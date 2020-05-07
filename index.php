@@ -21,6 +21,7 @@ get_header();
       <div class="metabox">
       <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
         <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('j.n.y'); ?></p>
+        <a href="https://github.com/Sven72"><i class="fab fa-github"></i></a>
       </div>
 
     <h1 class="article-headline">
@@ -40,9 +41,11 @@ get_header();
     </div>
    
 </article>
-  <?php }
+
+
+</section>
+<div class="pagination">
+ <?php }
   echo paginate_links();
 ?>
-</section>
-
 <?php get_footer() ?>

@@ -24,9 +24,11 @@ img {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 .fab {
-    background: #fff;
+    background: #ffa500;
     font-size: 3em;
+
 }

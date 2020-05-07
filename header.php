@@ -13,7 +13,6 @@
 <body <?php body_class(); ?>>
     <header>
         <!-- Style im Moment im global.css -->
-        <a href="https://github.com/Sven72"><i class="fab fa-github"></i></a>
         
         <div class="header-logo"><p><a href="<?php echo site_url() ?>"><?php bloginfo(name)?></a></p>
         <svg height="32px" id="menu-btn" class="open" viewBox="0 0 32 32">
