@@ -11,3 +11,4 @@ https://themecoder.de/2016/11/23/wie-du-beitragsbilder-im-wordpress-theme-implem
 #10. Headline klickbar | DONE
 #11. Buttons stylen
 #12. Tags stylen | DONE
+#13. Change Log
