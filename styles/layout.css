@@ -61,7 +61,7 @@ h1 a {
 .site-footer {
   background-color: #000;
   height: 4em;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
