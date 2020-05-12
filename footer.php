@@ -4,8 +4,9 @@
                             'theme_location' => 'footerMenuLocation'
                         ));
                     ?>
-  </footer>
-
-<?php wp_footer(); ?>
+                   
 </body>
+  </footer>
+ <?php wp_footer(); ?>
+
 </html>

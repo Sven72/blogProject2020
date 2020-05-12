@@ -7,10 +7,8 @@ body {
 
 article {
   display: grid;
-  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(
-      1.2rem,
-      1fr
-    );
+  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem,
+      1fr);
   margin-top: 1em;
   padding: 0 2em;
 }
@@ -63,9 +61,13 @@ h1 a {
 .site-footer {
   background-color: #000;
   height: 4em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .site-footer li a {
+  top: 1em;
   font-size: 1em;
   color: #ffffff;
 }

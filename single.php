@@ -9,26 +9,32 @@
     the_post(); ?>
     
 <article class="article main-article_single">
-            <!-- <img src="./img/testbild.jpg" alt="" class="article-img"> -->
-              <?php if ( has_post_thumbnail() ) : ?>
-    <a class="hero-img" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-        <?php the_post_thumbnail(); ?>
-    </a>
+    <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
+    <?php
+if ( has_post_thumbnail() ) { 
+the_post_thumbnail( 'full' );
+}
+?>
     
-<?php endif; ?>
-            <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
-            <h1 class="article-headline">
-                <?php the_title() ?>
-            </h1>
-            <p class="article-body">
-                <?php the_content(); ?>
-            </p>
-           
-          <div class="meta-tag-box">
-        <ul class="nice-tags"><?php the_tags('<li>', '</li><li>', '</li>' ); ?></ul>
-    
-          </div>
-        </article>
+    <h1 class="article-headline">
+            <?php the_title() ?>
+    </h1>
+    <p class="article-body">
+        <?php the_content(); ?>
+    </p>
+      <div class="meta-tag-box">
+        <ul class="nice-tags">
+            <?php the_tags('<li>', '</li><li>', '</li>' ); ?>
+        </ul>
+    </div>
+    <div class="metabox">
+      <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
+        <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('j.n.y'); ?></p>
+        <a href="https://github.com/Sven72"><i class="fab fa-github"></i></a>
+    </div>
+  
+      
+</article>
     </section>
   
     <?php }
