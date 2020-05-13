@@ -17,6 +17,8 @@ nav {
     transition: all .3s;
 }
 
+
+
 .exit {
     width: 4em;
     float: right;
@@ -46,6 +48,7 @@ li a {
 }
 
 .open {
+    /* visibility: hidden; */
     cursor: pointer;
 
 }
