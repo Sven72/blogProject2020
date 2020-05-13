@@ -1,6 +1,5 @@
-
 header {
-   background: #1D2226;
+    background: #1D2226;
 }
 
 .header-logo {
@@ -9,6 +8,6 @@ header {
     padding: 1em;
 }
 
-.header-logo a{
+.header-logo a {
     color: #fff;
 }

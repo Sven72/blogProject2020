@@ -12,18 +12,15 @@
 </head>
 <body <?php body_class(); ?>>
     <header>
-        
-        <!-- Style im Moment im global.css -->
-        
-        <div class="header-logo"><p><a href="<?php echo site_url() ?>"><?php bloginfo(name)?></a></p>
+        <p class="header-logo"><a href="<?php echo site_url() ?>"><?php bloginfo(name)?></a></p>
+
        <nav class="header-menu-wide">
-<?php
-wp_nav_menu( array( 
-    'theme_location' => 'my-custom-menu' ) ); 
-?>
-        <ul class="custom-menu">
-            <li><a href=""></a></li>
-        </ul>
-       
+
+            <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'header-menu'
+                ));
+                    ?>   
        <nav>
 </header>
+
