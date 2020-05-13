@@ -4,15 +4,13 @@
     --nav-li-hvr: #2E363D;
 }
 
+header {
+    display: flex;
+}
 
-
-
+/* Hier font awsome Icons für Menü */
 
 @media(min-width: 600px) {
-    header {
-        display: flex;
-    }
-
     .header-menu-wide ul {
         display: flex;
         margin-top: 2.6em;
