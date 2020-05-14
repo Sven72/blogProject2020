@@ -23,10 +23,9 @@
                     'theme_location' => 'header-menu'
                 ));
                     ?>   
-                    <a class="open" id="menu-btn"  href="#">&#9776;</a>
+                    <!-- <a class="open" id="menu-btn"  href="#">&#9776;</a> -->
        </nav>
 
  </div>
-
 
 </header>

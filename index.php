@@ -44,8 +44,12 @@ get_header();
 
 
 </section>
-<div class="pagination">
- <?php }
+<!-- Hat eine eigene klasse: page-numbers -->
+  <?php }
   echo paginate_links();
 ?>
+</div>
+       
+
+
 <?php get_footer() ?>
