@@ -8,50 +8,38 @@ header {
   display: flex;
 }
 
-@media (max-width: 600px) {
-  .toggle-nav {
+@media (max-width: 700px) {
+  #menu-btn {
     display: inline-block;
     font-size: 4em;
+    color: #fff;
   }
 
-  .menu {
+  .mobile-menu {
     display: inline-block;
     position: relative;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.5);
     text-align: left;
   }
 
-  .menu ul {
-    display: none;
-    position: absolute;
-    overflow: auto;
-    top: 0px;
-    right: 0px;
-    z-index: 999;
+  .mobile-menu ul {
     padding-right: 15px;
     background: #fff;
   }
 
-  .menu ul li {
-    float: none;
-    display: block;
-    position: relative;
+  .mobile-menu ul li {
     top: 0px;
     right: 0px;
     min-width: 200px;
-    background: #fff;
+    color: #fff;
     text-align: right;
-  }
-
-  menu li:after {
-    content: none;
   }
 }
 
 /* Hier font awsome Icons für Menü */
 
-@media (min-width: 600px) {
-  .nav-toggle {
+@media (min-width: 700px) {
+  .open {
     display: none;
     color: red;
   }

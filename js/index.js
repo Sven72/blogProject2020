@@ -1,22 +1,10 @@
-const toggle = document.getElementById('toggle-menu');
-const nav = document.getElementById('nav')
+const get = element => document.getElementById(element);
 
-toggle.addEventListener('click', () => {
-    nav.classList.add('menu');
-})
-
-//     -
-//     > Diesen COde muss ich nehmen
-// let open = get('menu-btn');
-// let nav = get('nav');
+let open = get('menu-btn');
+let nav = get('nav');
 // let exit = get('exit-btn');
 
-toggle.addEventListener('click', () => {
-    nav.classList.add('menu');
-
+open.addEventListener('click', () => {
+    nav.classList.add('mobile-menu').classList.remove('header-menu-wide')
 
 })
-
-// exit.addEventListener('click', () => {
-//     nav.classList.remove('open-nav')
-// })

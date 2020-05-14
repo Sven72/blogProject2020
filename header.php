@@ -15,14 +15,15 @@
         <p class="header-logo"><a href="<?php echo site_url() ?>"><?php bloginfo(name)?></a></p>
 
 <!-- Adding Burger menu for mobile nav -->
-<a class="toggle-nav" id="toggle-menu" style="color: red" href="#">&#9776;</a>
+
 <!-- Visible on wide -->
-       <nav class="header-menu-wide menu" id="nav">
+       <nav class="header-menu-wide" id="nav">
             <?php
                 wp_nav_menu(array(
                     'theme_location' => 'header-menu'
                 ));
                     ?>   
+                    <a class="open" id="menu-btn"  href="#">&#9776;</a>
        </nav>
 
  </div>
