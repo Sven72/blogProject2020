@@ -15,9 +15,9 @@
 
 
 
-*/ a.article-tag:hover {
+a.article-tag:hover {
    background: teal;
-   color: #ffa500;
+
 }
 
 .category-hint {
@@ -29,32 +29,31 @@
 }
 
 .nice-tags {
-   margin-top: 0.4em;
+   margin-top: 1.2em;
    display: flex;
+   list-style: none;
    margin-left: 0px;
    padding-left: 0px;
+   color: #ffa500;
 }
+
 
 .nice-tags li {
    margin-left: 0;
    padding-left: 0;
-   font-size: 0.3rem;
+   font-size: 1.5rem;
    position: relative;
 
 }
 
-.nice-tags li::after {
-   content: '';
-   position: absolute;
-   height: 0.1rem;
-   width: 50%;
-   bottom: 1.9rem;
-   z-index: -1;
-   background: #ffa500;
-
+.nice-tags li a {
+   color: #ffa500;
+   margin-left: 1em;
 }
 
 .nice-tags li a:hover {
-   background-color: teal;
+   background-color: #ffa500;
+   ;
+   color: #fff;
    border-radius: 10px;
 }

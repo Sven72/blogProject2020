@@ -9,61 +9,32 @@ header {
 }
 
 @media (max-width: 700px) {
-  #menu-btn {
-    display: inline-block;
-    font-size: 4em;
-    color: #fff;
-  }
-
-  .mobile-menu {
-    display: inline-block;
-    position: relative;
-    background: rgba(0, 0, 0, 0.5);
-    text-align: left;
-  }
-
-  .mobile-menu ul {
-    padding-right: 15px;
-    background: #fff;
-  }
-
-  .mobile-menu ul li {
-    top: 0px;
-    right: 0px;
-    min-width: 200px;
-    color: #fff;
-    text-align: right;
-  }
+  /* Display Mobile menu in future release */
 }
 
 /* Hier font awsome Icons für Menü */
 
-@media (min-width: 700px) {
-  .open {
-    display: none;
-    color: red;
-  }
-
-  .header-menu-wide ul {
-    display: flex;
-    margin-top: 2.6em;
-  }
-
-  .header-menu-wide ul li {
-    list-style: none;
-  }
-
-  .header-menu-wide ul li a {
-    color: #fff;
-    font-size: 1.5rem;
-    padding: 1em;
-  }
-
-  .header-menu-wide ul li a:hover {
-    color: var(--nav-clr);
-  }
-
-  .header-menu-wide ul li a {
-    padding-right: 1em;
-  }
+/* @media (min-width: 700px) { */
+.header-menu-wide ul {
+  display: flex;
+  margin-top: 2.6em;
 }
+
+.header-menu-wide ul li {
+  list-style: none;
+}
+
+.header-menu-wide ul li a {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1em;
+}
+
+.header-menu-wide ul li a:hover {
+  color: var(--nav-clr);
+}
+
+.header-menu-wide ul li a {
+  padding-right: 1em;
+}
+/* } */
