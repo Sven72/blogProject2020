@@ -1,36 +1,81 @@
 :root {
-    --nav-bg: #1D2226;
-    --nav-clr: #ffa500;
-    --nav-li-hvr: #2E363D;
+  --nav-bg: #1d2226;
+  --nav-clr: #ffa500;
+  --nav-li-hvr: #2e363d;
 }
 
 header {
-    display: flex;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .toggle-nav {
+    display: inline-block;
+    font-size: 4em;
+  }
+
+  .menu {
+    display: inline-block;
+    position: relative;
+    background: #fff;
+    text-align: left;
+  }
+
+  .menu ul {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    top: 0px;
+    right: 0px;
+    z-index: 999;
+    padding-right: 15px;
+    background: #fff;
+  }
+
+  .menu ul li {
+    float: none;
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    min-width: 200px;
+    background: #fff;
+    text-align: right;
+  }
+
+  menu li:after {
+    content: none;
+  }
 }
 
 /* Hier font awsome Icons für Menü */
 
-@media(min-width: 600px) {
-    .header-menu-wide ul {
-        display: flex;
-        margin-top: 2.6em;
-    }
+@media (min-width: 600px) {
+  .nav-toggle {
+    display: none;
+    color: red;
+  }
 
-    .header-menu-wide ul li {
-        list-style: none;
-    }
+  .header-menu-wide ul {
+    display: flex;
+    margin-top: 2.6em;
+  }
 
-    .header-menu-wide ul li a {
-        color: #fff;
-        font-size: 1.5rem;
-        padding: 1em;
-    }
+  .header-menu-wide ul li {
+    list-style: none;
+  }
 
-    .header-menu-wide ul li a:hover {
-        color: var(--nav-clr);
-    }
+  .header-menu-wide ul li a {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1em;
+  }
 
-    .header-menu-wide ul li a {
-        padding-right: 1em;
-    }
+  .header-menu-wide ul li a:hover {
+    color: var(--nav-clr);
+  }
+
+  .header-menu-wide ul li a {
+    padding-right: 1em;
+  }
 }
