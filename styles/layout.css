@@ -2,6 +2,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
   overflow-x: hidden;
 }
 
@@ -58,19 +59,9 @@ h1 a {
   transform: scale(0.7);
 }
 
-.site-footer {
-  background-color: #000;
-  height: 4em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
 
-.site-footer li a {
-  top: 1em;
-  font-size: 1em;
-  color: #ffffff;
-}
+
+
 
 @media (min-width: 500px) {
   article {

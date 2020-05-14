@@ -1,67 +1,69 @@
 :root {
-    --nav-bg: #1D2226;
-    --nav-clr: #ffa500;
-    --nav-li-hvr: #2E363D;
+  --nav-bg: #1d2226;
+  --nav-clr: #ffa500;
+  --nav-li-hvr: #2e363d;
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    background: var(--nav-bg);
-    width: 66%;
-    visibility: hidden;
-    transform: translateX(50%);
-    opacity: 0.9;
-    transition: all .3s;
+header {
+  display: flex;
 }
 
-.exit {
-    width: 4em;
-    float: right;
-    margin: .5em;
-    cursor: pointer;
+@media (max-width: 700px) {
+  #menu-btn {
+    display: inline-block;
+    font-size: 4em;
+    color: #fff;
+  }
 
+  .mobile-menu {
+    display: inline-block;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: left;
+  }
+
+  .mobile-menu ul {
+    padding-right: 15px;
+    background: #fff;
+  }
+
+  .mobile-menu ul li {
+    top: 0px;
+    right: 0px;
+    min-width: 200px;
+    color: #fff;
+    text-align: right;
+  }
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 4em;
-}
+/* Hier font awsome Icons für Menü */
 
-li a {
-    color: var(--nav-clr);
-    font-size: 3em;
-    text-decoration: none;
-    display: block;
-    padding: .5em 1em;
-}
+@media (min-width: 700px) {
+  .open {
+    display: none;
+    color: red;
+  }
 
-.header-logo {
+  .header-menu-wide ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    margin-top: 2.6em;
+  }
 
-.open {
-    cursor: pointer;
+  .header-menu-wide ul li {
+    list-style: none;
+  }
 
-}
+  .header-menu-wide ul li a {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1em;
+  }
 
-.active a {
-    /* color: #008AF8; */
-    font-weight: bold;
-}
+  .header-menu-wide ul li a:hover {
+    color: var(--nav-clr);
+  }
 
-li a:hover {
-    background: var(--nav-li-hvr);
-
-}
-
-.open-nav {
-    visibility: unset;
-    opacity: 0.9;
-    transform: translateX(0);
+  .header-menu-wide ul li a {
+    padding-right: 1em;
+  }
 }
