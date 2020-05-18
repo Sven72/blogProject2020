@@ -26,6 +26,4 @@
                     <!-- <a class="open" id="menu-btn"  href="#">&#9776;</a> -->
        </nav>
 
- </div>
-
 </header>
