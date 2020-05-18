@@ -7,7 +7,6 @@ body {
 }
 
 article {
-  display: grid;
   grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem,
       1fr);
   margin-top: 1em;
@@ -59,12 +58,23 @@ h1 a {
   transform: scale(0.7);
 }
 
+.pagination {
+  display: grid;
+  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem,
+      1fr);
+  grid-template-rows: 1rem;
+  align-items: end;
+}
 
-/* Paginierungs Klassen auf index */
+.pagination-element {
+  grid-column: 2/3;
+  justify-self: end;
 
-/* .current */
+}
 
-
+.site-footer {
+  background-color: red;
+}
 
 
 @media (min-width: 500px) {

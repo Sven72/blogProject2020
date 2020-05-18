@@ -41,12 +41,20 @@ get_header();
     </div>
    
 </article>
+ <?php } ?>
+
 
 
 </section>
-<!-- Hat eine eigene klasse: page-numbers -->
-  <?php }
+<div class="pagination">
+  <p class="pagination-element">
+
+<?php
+
   echo paginate_links();
 ?>
+</p>
+</div>
+<!-- Hat eine eigene klasse: page-numbers -->
 
 <?php get_footer() ?>
