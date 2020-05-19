@@ -15,3 +15,4 @@ https://themecoder.de/2016/11/23/wie-du-beitragsbilder-im-wordpress-theme-implem
 #14. Was ist denn mit dem Footer los? Warum erscheint hier die Navigation nicht?
 #15. Display Code in WP https://webdevblog.com/display-code-wordpress/
 #16. Fix header mobile!!!
+#17. Nav challenge Ordner checken …
