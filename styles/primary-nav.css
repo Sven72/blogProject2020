@@ -37,3 +37,27 @@ header {
 .header-menu-wide ul li a {
   padding-right: 1em;
 }
+
+/* Footer */
+.footer-menu-wide ul {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.footer-menu-wide ul li {
+  list-style: none;
+}
+
+.footer-menu-wide ul li a {
+  color: #fff;
+  font-size: 1rem;
+  padding: 1em;
+}
+
+.footer-menu-wide ul li a:hover {
+  color: var(--nav-clr);
+}
+
+.footer-menu-wide ul li a:hover {
+  color: var(--nav-clr);
+}
