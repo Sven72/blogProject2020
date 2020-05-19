@@ -40,23 +40,37 @@ h1 a {
 
 .metabox {
   display: flex;
+  position: relative;
   align-items: baseline;
   background-color: rgb(255, 165, 0);
   justify-content: space-between;
   margin-top: 1em;
 }
 
+
 .metabox a {
   margin-right: 1em;
 }
 
-.metabox:hover {
-  opacity: 0.8;
-}
+
 
 .fa-github {
   transform: scale(0.7);
+  margin-top: -25px;
+  border-radius: 50%;
+  transition: 0.9s;
 }
+
+
+.fa-github:hover {
+  transition-timing-function: ease-out;
+  transition: 0.2s;
+  transform: scale(0.8);
+  background-color: #fff;
+
+}
+
+
 
 .pagination {
   display: grid;

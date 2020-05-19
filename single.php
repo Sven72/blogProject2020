@@ -9,12 +9,18 @@
     the_post(); ?>
     
 <article class="article main-article_single">
-    <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
+  
     <?php
 if ( has_post_thumbnail() ) { 
 the_post_thumbnail( 'full' );
 }
 ?>
+
+  <div class="metabox">
+      <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
+        <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('j.n.y'); ?></p>
+        <a href="https://github.com/Sven72"><i class="fab fa-github"></i></a>
+    </div>
     
     <h1 class="article-headline">
             <?php the_title() ?>
@@ -27,11 +33,7 @@ the_post_thumbnail( 'full' );
             <?php the_tags('<li>', '</li><li>', '</li>' ); ?>
         </ul>
     </div>
-    <div class="metabox">
-      <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
-        <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('j.n.y'); ?></p>
-        <a href="https://github.com/Sven72"><i class="fab fa-github"></i></a>
-    </div>
+   
   
       
 </article>
