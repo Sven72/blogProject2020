@@ -11,9 +11,30 @@ header {
 
 }
 
+/* Display Mobile menu in future release */
+@media(max-width: 700px) {
+  header {
+    background: #fff;
+  }
+
+  .header-menu-wide {
+    visibility: hidden;
+  }
+
+  #menu-btn {
+    font-size: 3rem;
+    display: block;
+  }
+
+
+}
+
 
 @media (min-width: 700px) {
-  /* Display Mobile menu in future release */
+
+  .header-menu-mobile {
+    visibility: hidden;
+  }
 
   .header-menu-wide ul {
     display: flex;
