@@ -14,16 +14,33 @@
     <header>
         <p class="header-logo"><a href="<?php echo site_url() ?>"><?php bloginfo(name)?></a></p>
 
-<!-- Adding Burger menu for mobile nav -->
-<!-- <a class="open" id="menu-btn"  href="#">&#9776;</a> -->
 <!-- Visible on wide -->
        <nav class="header-menu-wide" id="nav">
             <?php
                 wp_nav_menu(array(
                     'theme_location' => 'header-menu'
                 ));
-                    ?>   
-                    
+                    ?>      
        </nav>
+
+<!-- Adding Burger menu for mobile nav -->
+<a class="open" id="menu-btn"  href="#">&#9776;</a>
+<!-- visible on mobile -->
+         <nav class="header-menu-mobile" id="nav-mobile">
+            <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'header-menu'
+                ));
+                    ?>      
+       </nav>
+
+   
+<!-- 
+Unter 700px soll Hamburger sichtbar sein. 
+Bei Click auf Hamburger wird entsprechende Klasse sichtbar. 
+
+ -->
+
+
 
 </header>
