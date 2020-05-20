@@ -15,7 +15,7 @@
         <p class="header-logo"><a href="<?php echo site_url() ?>"><?php bloginfo(name)?></a></p>
 
 <!-- Adding Burger menu for mobile nav -->
-
+<!-- <a class="open" id="menu-btn"  href="#">&#9776;</a> -->
 <!-- Visible on wide -->
        <nav class="header-menu-wide" id="nav">
             <?php
@@ -23,7 +23,7 @@
                     'theme_location' => 'header-menu'
                 ));
                     ?>   
-                    <!-- <a class="open" id="menu-btn"  href="#">&#9776;</a> -->
+                    
        </nav>
 
 </header>
