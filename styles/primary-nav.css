@@ -8,31 +8,112 @@ header {
   display: flex;
   padding: 0;
   margin-top: 0;
-
 }
 
-/* Display Mobile menu in future release */
-@media(max-width: 700px) {
-  header {
-    background: #fff;
-  }
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* added for nav-toggle positioning */
+  position: relative;
+}
 
+/* Mobile */
+
+/* Display Mobile menu in future release */
+@media (max-width: 700px) {
   .header-menu-wide {
     visibility: hidden;
   }
 
-  #menu-btn {
-    font-size: 3rem;
-    display: block;
+  .nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 4em;
+    height: 4em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #072a2d;
+    color: white;
+    transition: opacity 250ms ease;
+    top: 2.5em;
+    position: absolute;
+    right: 1em;
   }
 
+  .nav-toggle:focus,
+  .nav-toggle:hover {
+    opacity: 0.75;
+  }
 
+  /* Hamburger Styling */
+  .hamburger {
+    width: 50%;
+    position: relative;
+  }
+
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+  }
+
+  .hamburger::before,
+  .hamburger::after {
+    content: "";
+    width: 100%;
+  }
+
+  .hamburger::before {
+    transform: translateY(-6px);
+  }
+
+  .hamburger::after {
+    transform: translateY(3px);
+  }
+
+  .nav {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav li {
+    list-style: none;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav a:hover {
+    opacity: 0.7;
+  }
+
+  /* Styles der mobile Navigation */
+  .nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+    background-color: #ffa500;
+  }
+
+  /* .nav--visible a {
+    color: #fff;
+    font-size: 1em;
+    list-style: none;
+  } */
 }
 
-
 @media (min-width: 700px) {
-
-  .header-menu-mobile {
+  .nav-toggle {
     visibility: hidden;
   }
 
@@ -82,5 +163,4 @@ header {
   .footer-menu-wide ul li a:hover {
     color: var(--nav-clr);
   }
-
 }

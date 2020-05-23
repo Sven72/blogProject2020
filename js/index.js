@@ -1,4 +1,5 @@
-let menuBtn = document.getElementById("menu-btn");
-menuBtn.addEventListener('click', () => {
-    alert("Clicked");
+const navToggle = document.querySelector('.nav-toggle');
+const nav = document.querySelector('.nav');
+navToggle.addEventListener('click', () => {
+    nav.classList.toggle('nav--visible');
 })
