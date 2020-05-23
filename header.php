@@ -16,7 +16,7 @@
         <button class="nav-toggle" aria-label="open navigation">
                 <span class="hamburger"></span>
             </button>
-            <h1>.</h1>
+            <!-- <h1>.</h1> -->
 <!-- Visible on wide -->
        <nav class="header-menu-wide nav">
             <?php
