@@ -104,12 +104,6 @@ header {
     position: relative;
     background-color: #ffa500;
   }
-
-  /* .nav--visible a {
-    color: #fff;
-    font-size: 1em;
-    list-style: none;
-  } */
 }
 
 @media (min-width: 700px) {
