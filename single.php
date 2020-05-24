@@ -33,13 +33,23 @@ the_post_thumbnail( 'full' );
             <?php the_tags('<li>', '</li><li>', '</li>' ); ?>
         </ul>
     </div>
+    <?php
+  // If comments are open or we have at least one comment, load up the comment template.
+ if ( comments_open() || get_comments_number() ) :
+     comments_template();
+ endif;
+  comment_form(); 
+?>
    
   
       
 </article>
+
     </section>
   
     <?php }
     
     get_footer() 
     ?>
+
+  
