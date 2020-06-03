@@ -16,3 +16,5 @@ https://themecoder.de/2016/11/23/wie-du-beitragsbilder-im-wordpress-theme-implem
 #15. Display Code in WP https://webdevblog.com/display-code-wordpress/
 #16. Fix header mobile!!!
 #17. Nav challenge Ordner checken …
+#18. Follow Andrew Register Nav 59:20
+#19. Was ist mit den Fotos?

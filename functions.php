@@ -11,7 +11,6 @@ function myBlog_files() {
 add_action('wp_enqueue_scripts', 'myBlog_files');
 
 function myBlog_features() {
-  add_theme_support('post-thumbnails');
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
   set_post_thumbnail_size(700, 700);
