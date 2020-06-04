@@ -10,9 +10,14 @@ function myBlog_files() {
 
 add_action('wp_enqueue_scripts', 'myBlog_files');
 
+
+
 function myBlog_features() {
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
+  add_image_size('landscape', 400, 260, true);
+  add_image_size('portrait', 480, 650, true);
+
   set_post_thumbnail_size(700, 700);
 }
 add_action('after_setup_theme', 'myBlog_features');

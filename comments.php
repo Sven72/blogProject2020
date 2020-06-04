@@ -1,21 +1,40 @@
-<?php
+<?php /*
+	
+@package sunsettheme
+*/
 
-//Get only the approved comments
-$args = array(
-    'status' => 'approve'
-);
- 
-// The comment Query
-$comments_query = new WP_Comment_Query;
-$comments = $comments_query->query( $args );
- 
-// Comment Loop
-if ( $comments ) {
- foreach ( $comments as $comment ) {
- echo '<p>' . $comment->comment_content . '</p>';
- }
-} else {
- echo 'No comments found.';
+if( post_password_required() ){
+	return;
 }
 
 ?>
+
+<div id="comments" class="comments-area">
+	
+	<?php 
+		if( have_comments() ):
+		//We have comments
+	?>
+	
+	<ol class="comment-list">
+
+	</ol>
+	
+	<?php 
+		if( !comments_open() && get_comments_number() ):
+	?>
+		 
+		 <p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'myBlog' ); ?></p>
+		 
+	<?php
+		endif;
+	?>
+		
+	<?php	
+		endif;
+	?>
+	
+	<?php comment_form(); ?>
+	
+</div><!-- .comments-area -->
+
