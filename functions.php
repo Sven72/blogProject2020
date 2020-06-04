@@ -15,9 +15,16 @@ function myBlog_features() {
   add_theme_support('post-thumbnails');
   set_post_thumbnail_size(700, 700);
 }
-add_action('after_setup_theme', myBlog_features);
+add_action('after_setup_theme', 'myBlog_features');
 
-1
- add_action( 'init', 'register_my_menus' );
+function myBlog_menus() {
+  $locations = array(
+    'primary' => 'Desktop primary main',
+    'footer' => 'Footer Menu'
+  );
+  register_nav_menus($locations);
+}
+
+add_action('init', 'myBlog_menus')
 
 ?>

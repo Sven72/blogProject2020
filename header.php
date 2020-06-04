@@ -11,7 +11,7 @@
 <body <?php body_class(); ?>>
     <header>
     <div class="container">
-        <p class="header-logo"><a href="<?php echo site_url() ?>"><?php bloginfo(name)?></a></p>
+        <p class="header-logo"><a href="<?php echo site_url() ?>"><?php bloginfo()?></a></p>
 
         <button class="nav-toggle" aria-label="open navigation">
                 <span class="hamburger"></span>
