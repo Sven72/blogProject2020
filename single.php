@@ -11,7 +11,7 @@
     
  
     ?>
- 
+
  
 <article class="article main-article_single">
 <?php the_post_thumbnail(array(700, 700) ); ?>
