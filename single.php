@@ -1,4 +1,4 @@
-    <?php 
+   <?php 
     
     get_header();
     ?>
@@ -25,7 +25,8 @@
             <?php the_title() ?>
     </h1>
     <p class="article-body">
-        <?php the_content(); ?>
+        <?php the_content(); 
+          ?>
     </p>
       <div class="meta-tag-box">
         <ul class="nice-tags">
