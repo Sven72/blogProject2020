@@ -14,7 +14,7 @@
 
  
 <article class="article main-article_single">
-<?php the_post_thumbnail(array(700, 700) ); ?>
+<?php the_post_thumbnail( array(700, 700)); ?>
   <div class="metabox">
       <p class="article-cat"><?php echo get_the_category_list(', '); ?></p>
         <p>Post von <?php the_author_posts_link(); ?> am <?php the_time('j.n.y'); ?></p>
@@ -25,6 +25,7 @@
             <?php the_title() ?>
     </h1>
     <p class="article-body">
+    <!-- Rendert auch images?! -->
         <?php the_content(); 
           ?>
     </p>
