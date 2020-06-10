@@ -15,7 +15,7 @@ function myBlog_features() {
   add_theme_support('post-thumbnails');
   set_post_thumbnail_size(700, 700);
 }
-add_action('after_setup_theme', myBlog_features);
+add_action('after_setup_theme', 'myBlog_features');
 
 function register_my_menus() {
   register_nav_menus(
