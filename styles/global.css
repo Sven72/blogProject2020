@@ -10,22 +10,20 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-/* Als ich die Seite selbst gebaut hatte, musst ich horizontal scrollen, weil das Foto so groß ist. Dies verhindert das: */
-
-img {
-    width: 100%;
-
-}
-
-.wp-block-image {
-    margin-bottom: 1em;
-    width: 600px;
-}
-
 * {
     box-sizing: border-box;
 }
+
+
+img {
+    width: 100%;
+}
+
+.wp-block-image img {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
 
 a {
     text-decoration: none;

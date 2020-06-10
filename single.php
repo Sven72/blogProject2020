@@ -24,10 +24,11 @@
     <h1 class="article-headline">
             <?php the_title() ?>
     </h1>
+    <?php the_content(); 
+          ?>
     <p class="article-body">
     <!-- Rendert auch images?! -->
-        <?php the_content(); 
-          ?>
+        
     </p>
       <div class="meta-tag-box">
         <ul class="nice-tags">
