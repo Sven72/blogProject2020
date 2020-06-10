@@ -26,15 +26,5 @@
                     ?>      
        </nav>
     </div>
-
-
-   
-<!-- 
-Unter 700px soll Hamburger sichtbar sein. 
-Bei Click auf Hamburger wird entsprechende Klasse sichtbar. 
-
-ICH BRAUCHE KEINE ZWEITE NAV KLASSE. ICH KANN EINE VERWEDNEN .
- -->
-
    
 </header>

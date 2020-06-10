@@ -18,3 +18,7 @@ https://themecoder.de/2016/11/23/wie-du-beitragsbilder-im-wordpress-theme-implem
 #17. Nav challenge Ordner checken …
 #18. Follow Andrew Register Nav 59:20
 #19. Was ist mit den Fotos?
+#17. Nav challenge Ordner checken … | Done
+
+#18 Comments
+https://developer.wordpress.org/themes/template-files-section/partial-and-miscellaneous-template-files/comment-template/
