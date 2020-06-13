@@ -15,7 +15,7 @@ header {
 /* Mobile */
 
 /* Display Mobile menu in future release */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .header-menu-wide {
     visibility: hidden;
   }
@@ -38,10 +38,10 @@ header {
   .nav-toggle:focus,
   .nav-toggle:hover {
     opacity: 0.75;
-  }
+  } */
 
-  /* Hamburger Styling */
-  .hamburger {
+/* Hamburger Styling */
+/* .hamburger {
     width: 50%;
     position: relative;
   }
@@ -89,16 +89,16 @@ header {
 
   nav a:hover {
     opacity: 0.7;
-  }
+  } */
 
-  /* Styles der mobile Navigation */
-  .nav--visible {
+/* Styles der mobile Navigation */
+/* .nav--visible {
     visibility: visible;
     height: auto;
     position: relative;
     background-color: #ffa500;
-  }
-}
+  } */
+
 
 @media (min-width: 700px) {
   .nav-toggle {

@@ -13,9 +13,9 @@
     <div class="container">
         <p class="header-logo"><a href="<?php echo site_url() ?>"><?php bloginfo()?></a></p>
 
-        <button class="nav-toggle" aria-label="open navigation">
+        <!-- <button class="nav-toggle" aria-label="open navigation">
                 <span class="hamburger"></span>
-            </button>
+            </button> -->
             <!-- <h1>.</h1> -->
 <!-- Visible on wide -->
        <nav class="header-menu-wide nav">
