@@ -10,6 +10,7 @@
 </head>
 <body <?php body_class(); ?>>
     <header>
+    <!-- Test für github -->
     <div class="container">
         <p class="header-logo"><a href="<?php echo site_url() ?>"><?php bloginfo()?></a></p>
 
