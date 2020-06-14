@@ -9,10 +9,8 @@
       while(have_posts()) {
     the_post(); 
     
- 
     ?>
 
- 
 <article class="article main-article_single">
 <?php the_post_thumbnail( array(700, 700)); ?>
   <div class="metabox">
