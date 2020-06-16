@@ -100,55 +100,54 @@ header {
   } */
 
 
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
   .nav-toggle {
     visibility: hidden;
-  }
+  } */
 
-  .header-menu-wide ul {
-    display: flex;
-    margin-top: 2.6em;
-  }
+.header-menu-wide ul {
+  display: flex;
+  margin-top: 2.6em;
+}
 
-  .header-menu-wide ul li {
-    list-style: none;
-  }
+.header-menu-wide ul li {
+  list-style: none;
+}
 
-  .header-menu-wide ul li a {
-    color: #fff;
-    font-size: 1.5rem;
-    padding: 1em;
-  }
+.header-menu-wide ul li a {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1em;
+}
 
-  .header-menu-wide ul li a:hover {
-    color: var(--nav-clr);
-  }
+.header-menu-wide ul li a:hover {
+  color: var(--nav-clr);
+}
 
-  .header-menu-wide ul li a {
-    padding-right: 1em;
-  }
+.header-menu-wide ul li a {
+  padding-right: 1em;
+}
 
-  /* Footer */
-  .footer-menu-wide ul {
-    display: flex;
-    margin-bottom: 2em;
-  }
+/* Footer */
+.footer-menu-wide ul {
+  display: flex;
+  margin-bottom: 2em;
+}
 
-  .footer-menu-wide ul li {
-    list-style: none;
-  }
+.footer-menu-wide ul li {
+  list-style: none;
+}
 
-  .footer-menu-wide ul li a {
-    color: #fff;
-    font-size: 1rem;
-    padding: 1em;
-  }
+.footer-menu-wide ul li a {
+  color: #fff;
+  font-size: 1rem;
+  padding: 1em;
+}
 
-  .footer-menu-wide ul li a:hover {
-    color: var(--nav-clr);
-  }
+.footer-menu-wide ul li a:hover {
+  color: var(--nav-clr);
+}
 
-  .footer-menu-wide ul li a:hover {
-    color: var(--nav-clr);
-  }
+.footer-menu-wide ul li a:hover {
+  color: var(--nav-clr);
 }
