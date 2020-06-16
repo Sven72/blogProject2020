@@ -46,6 +46,13 @@
       color: #ffff;
   }
 
+  .wp-block-code {
+      font-family: monospace;
+      color: red;
+      font-size: 1.5rem;
+      margin: 2em;
+  }
+
   @media(min-width: 500px) {
       h1 {
           font-size: 2rem;
